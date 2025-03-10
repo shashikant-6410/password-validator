@@ -1,0 +1,31 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("3092746.jpg");
+    background-size: cover;
+}
+#label{
+    font-size: large;
+}
+#container{
+    height: 60px;
+    width: 600px;
+    /* border: 3px solid black; */
+
+    margin: 50px auto;
+    
+}
+#pword{
+    border: 1px solid blue;
+    background-color: slategray;
+}
+button{
+    border: 2px solid blue;
+    background-color: aqua;
+}
+#pword,button:hover{
+    cursor: pointer;
+}
+
+#instruction{
+    color:white;
+}
