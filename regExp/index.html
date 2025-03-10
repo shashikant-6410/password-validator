@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password validator</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <div id="container">
+        <p><h3>password minimum length should be 10 ,it should conatain an <b>Uppercase,Lowercase,a digit and a special character.</b></h3></p>
+        <form onsubmit="return false;">  
+            <label for="pword" id="label">enter the password</label>
+            <input type="password" id="pword" placeholder="password" >
+    
+            <button type="button" onclick="validatePassword()">Hit Me</button>
+            <p id="decision"></p> 
+        </form>
+    </div>
+    
+         
+    <script src="script.js"></script>
+ </body>
+ </html>
